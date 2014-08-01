@@ -1,0 +1,250 @@
+*{font-family: sans-serif;
+  font-weight: normal;}
+header{
+  border:solid 1px;
+      height: 180px;
+     margin-left:100px;
+     margin-right: 100px;
+background-color: #191919;
+
+ 
+
+}
+ section{
+
+  border:solid 1px;
+      height: 650px;
+     margin-left:100px;
+     margin-right: 100px;
+background-color: #2D2D2D;
+
+
+}
+
+header h1 strong {
+	font-weight: normal;
+	color: #fff;
+}
+header h1   {font-weight: normal;
+	color: #808080;
+	font-size: 22px;
+
+
+}
+.texto{
+margin-top: 70px;
+margin-left: 225px;
+ 
+
+}
+  header nav li {
+color: #fff;
+
+	display: inline-block;
+	
+
+}
+ 
+ 
+ header nav{
+
+ 	text-align: center;
+  margin-top: 10px;
+
+
+ }
+
+
+li{padding: 5px;}
+
+
+.mennu1 li:hover{
+background-color: #118EFF;
+color: #fff;
+}
+
+article{
+ 
+ background-image: url( "../imgs/top.png"  );
+ 
+ height: 278px;
+ width: 900px;
+
+ 
+
+ 
+  margin-left:80px;
+  margin-right:-100px;
+ 
+
+ }
+ .ipsum{
+   
+
+ 
+top: 50px;
+position: relative;
+
+  
+
+margin-left: 550px;
+color: white;
+ 
+margin-right: 10px;
+font-family: sans-serif;
+ font-weight: normal;
+ font-family: tahoma;
+ font-size: 25px;
+ }
+
+.ipsum2{
+  color:white;
+ 
+margin-right: 10px;
+margin-left:570px;
+margin-top: 80px;
+width:  220px;
+font-size:  18px;
+ 
+
+}
+
+.boton{
+ 
+position: relative;
+  margin-left: 800px;
+ top: -38px;
+}
+
+.rosa{
+
+margin-top: 90px;
+
+}
+
+.reproductor{
+  margin-left: 14px;
+
+
+}
+
+.teclas{
+margin-left: 14px;
+
+}
+
+.rosa{
+ 
+ border: 1px solid white;
+  position:   relative; 
+width:  288px;
+top:-425px;
+left:   80px;
+height:250px; 
+color:  white;
+background:   #46A3FF;}
+
+.magna{
+
+  margin-left:  20px;
+  border: 1px solid white;
+  width: 200px;
+
+ 
+}
+
+.magna1{
+ 
+   margin-left:  20px;
+ margin-top:  -5px;
+   width:200px;
+     border: 1px solid white;
+       font-size: 17px;
+}
+
+.reproductor{
+border: 1px solid white;
+  position:   relative; 
+width:  288px;
+top:-677px;
+left:   472px;
+height:250px; 
+color:  white;
+background: #FD5200;
+
+
+
+}
+
+.reprod{
+
+position: relative;
+
+top: -115px;
+
+}
+
+.teclas{
+border: 1px solid white;
+  position:   relative; 
+width:  288px;
+top:-930px;
+left:   779px;
+height:250px; 
+color:  white;
+background: #404040;
+
+
+}
+
+.nullam{
+  position: relative;
+   border: 1px solid white;
+   top: 140px;
+   left: 20px;
+   width: 200px;
+
+
+
+
+}
+
+.nullam1{
+
+  border: 1px solid white;
+  position: relative;
+ top: 140px;
+ width: 215px;
+left: 20px;
+    font-size: 17px;
+
+
+}
+
+.dolore{
+  position: relative;
+  border: 1px solid white;
+ width: 215px;
+ left: 20px;
+
+
+}
+
+.dolorem{
+  position: relative;
+ width: 215px;
+ left: 20px;
+
+  border: 1px solid white;
+      font-size: 17px;
+}
+ 
+ .linea{
+border: 1px solid blue;
+  background: red;
+ height: 1px;
+ 
+  position: relative;
+top: -1000px;
+height: 10px;
+ }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>word-wrap CSS3</title>
+	<style>
+	body {
+		font: 16px sans-serif;
+	}
+	fieldset {
+		display: inline-block;
+		margin-right: 120px;
+		width: 210px;
+	}
+	p {
+		width: 200px;
+	}
+	fieldset:first-child {
+		word-wrap: normal;
+	}
+	fieldset:last-child {
+		word-wrap: break-word;
+	}
+	</style>
+</head>
+<body>
+	<h1>word-wrap CSS3</h1>
+	<fieldset>
+		<legend>
+			<h1>word-wrap: normal;</h1>
+		</legend><p>Lorem ipsum dolor sit amethhhhhhhhhhhhhhhhgfgfgfgfgfgfgfgfgfgfffffffffffff, consectetur adipisicing elit. Ab magnam nam eaque id est harum commodi ipsam enim! Delectus dignissimos, vel. Nihil voluptates in a expedita nam enim, sapiente voluptas.</p>
+	</fieldset>
+	<fieldset>
+		<legend>
+			<h1>word-wrap:break-word;</h1>
+		</legend><p>Lorem ipsum dolor sit amethhhhhhhhhhhhhhhhgfgfgfgfgfgfgfgfgfgffffffffffffff, consectetur adipisicing elit. Nisi quod eveniet eius enim veritatis consequuntur, excepturi doloribus ex ducimus, molestiae similique modi soluta laborum tempora explicabo debitis ullam, sit esse!</p>
+	</fieldset>
+	
+</body>
+</html>

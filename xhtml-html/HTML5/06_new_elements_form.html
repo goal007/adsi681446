@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>nuevos elementos formularios</title>
+</head>
+<body>
+
+
+ 
+<h1>datalist</h1>
+	 <input list="lista">
+
+	 <datalist id="lista">
+	 	 
+	 	 <option value="1">
+	 	 <option value="2">
+	 	 <option value="3">
+	 	 </datalist>
+ 
+	</datalist>
+
+      
+ 
+
+        <h1>keygen</h1>
+   <form action="demo_form.asp" method="get">
+Username: <input type="text" name="usr_name" />
+Encryption: <keygen name="security" />
+<input type="submit" />
+</form>
+
+ 
+<h1>output</h1>
+   <form onsubmit="return false" oninput="document.getElementById('o').innerHTML = parseFloat(document.getElementById('a').value) + parseFloat(document.getElementById('b').value)">
+             
+            <input name="a" id="a" type="number" step="any"> +
+            <input name="b" id="b" type="number" step="any"> =
+            <output name="o" id="o" for="a b"></output>
+         
+        </form>
+
+</body>
+</html>

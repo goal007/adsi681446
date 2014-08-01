@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pseudo selectores de elementos</title>
+	<style>
+body{font: 16px sans-serif;}
+ul.manga li::before {
+	content: "-> :)->";
+
+} 
+ul.peliculas li::after{
+	content: url("imgs/movie.gif");
+	}
+
+	</style>
+
+</head>
+<body>
+		<h1>pseudo selectores de elementos</h1>
+	 	<h2>pseudo selectores de elementos</h2>
+
+	 	<ul class="manga">
+	 		<li>naruto</li>
+	 	    <li>dragon ball</li>
+            <li>los simpsons</li>
+	 		<li>super campeones</li>
+           <li>sailor moon</li>
+	 	</ul>
+
+	 	<h2>li::after</h2>
+	 	<ul class="peliculas">
+	 	<li>malefica</li>
+	 	<li>xmen</li>
+	 	<li>ladrona de libros</li>
+	 	<li>el lobo del wallstreet</li>
+	 	</ul>
+ 
+
+</body>
+</html>

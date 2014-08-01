@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>nuevos selectores css3</title>
+	<style>
+
+     p~ul{
+     	border: 2px solid red;
+
+
+     }
+   a[href^="https"]{
+
+
+     	border: 2px solid green;
+     }
+
+a[href$=".pdf"]{
+
+
+	border: 2px solid orange;
+}
+
+ a[href*="google"]{
+
+background-color: yellow;
+
+ }
+
+
+ li.eje5:first-of-type{
+
+ 	background-color:  blue;
+ }
+
+ li.eje6:last-of-type {
+background-color:  #34EC13;
+
+ }
+
+
+
+    p.eje7:only-of-type{
+
+   background-color: silver;
+    }
+
+
+p.eje8:only-child{
+
+	background-color: black;
+}
+
+
+
+	</style>
+</head>
+<body>
+	<h1>nuevos selectores css3</h1> 
+<fieldset> 
+	<legend><h2>p~ul</h2></legend>
+		<p>
+			<ul>
+				
+				<li>colombia </li>
+
+				<li>argentina </li>
+
+				<li>brasil </li>
+				
+				<li>chile </li>
+
+				<li>ecuador </li>
+	
+				<li>uruguay </li>
+			</ul>
+			
+
+
+		</p>
+
+
+
+	
+	</fieldset>
+
+
+	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+
+	<fieldset> 
+	<legend><h2> a[href^="https"]</h2></legend>
+		<p>
+			<nav>
+				
+				<li><a href="http://www.facebook.com">facebook</a>  </li>
+
+				<li><a href="http://www.twitter.com">twitter</a>   </li>
+
+				<li> <a href="https://senasofiaplus.edu.co">sofia plus</a>  </li>
+		 
+			</nav>
+			
+
+
+		</p>
+
+
+
+	
+	</fieldset>
+
+<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+
+	<fieldset> 
+	<legend><h2> a[href$=".pdf"]</h2></legend>
+		<p>
+			<nav>
+				
+				<li><a href="libros/css3.docx">libro css 3</a>  </li>
+
+				<li><a href=" libros/js.pdf">libro js</a>   </li>
+
+				<li> <a href=" libros/html5.xlsx">libro html 5 </a>  </li>
+		 
+			</nav>
+			
+
+
+		</p>
+
+	
+	</fieldset>
+
+<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+	<fieldset> 
+	<legend><h2> a[href*="google"]</h2></legend>
+		<p>
+			<nav>
+				
+				<li><a href="http://maps.google.com">mapas de google</a>  </li>
+
+				<li><a href=" http://mail.google.com">correo de google</a>   </li>
+
+				<li> <a href=" http://yahoo.com"> correo de yahoo </a>  </li>
+		 
+			</nav>
+			
+
+
+		</p>
+
+	
+	</fieldset>
+
+
+<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+	<fieldset> 
+	<legend><h2>li:.eje5:first-of-type</h2></legend>
+		<p  >
+	      
+				
+				<li class="eje5"> disco duro </li>
+
+				<li class="eje5"> memoria ram </li>
+
+				<li class="eje5">tarjeta madre </li>
+				<li class="eje5">unidad de dvd</li>
+	 
+			
+
+
+		</p>
+
+	
+	</fieldset>
+
+	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+	<fieldset> 
+	<legend><h2>li.eje6:last-of-type</h2></legend>
+		<p  >
+	      
+				
+				<li class="eje6"> disco duro </li>
+
+				<li class="eje6"  > memoria ram </li>
+
+				<li class="eje6"  >tarjeta madre </li>
+				<li class="eje6"  >unidad de dvd</li>
+	 
+			
+
+
+		</p>
+
+	
+	</fieldset>
+
+		<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+	<fieldset> 
+	<legend><h2>p.eje7:only-of-type</h2></legend>
+	 
+	      
+				
+				<p class="eje7"> lorem ipsum dolor 4 </p>
+
+				 
+		 
+
+	
+	</fieldset>
+
+	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+	<fieldset> 
+	<legend><h2>p.eje8:only-child</h2></legend>
+	 
+	      
+				
+				<p class="eje8"> lorem ipsum dolor 4 </p>
+
+				 
+		 
+
+	
+	</fieldset>
+
+	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+
+
+	<fieldset> 
+	<legend><h2>p.eje9:nth-child(2)</h2></legend>
+	 
+	      <section>
+				
+				<p class="eje9"> lorem ipsum dolor 1 </p>
+<p class="eje9"> lorem ipsum dolor 2 </p>
+<p class="eje9"> lorem ipsum dolor 3 </p>
+<p class="eje9"> lorem ipsum dolor 4 </p>
+				 
+		 
+</section>
+	
+	</fieldset>
+
+
+</body>
+</html>

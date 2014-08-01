@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>atributos especificos</title>
+</head>
+<body>
+
+<h1>autocomplete</h1>
+<form autocomplete="on">
+	<input name="q" type="text" autocomplete="on" >
+	<input type="submit">
+	</form>
+<h1>autofocus</h1>
+
+<form autofocus>
+ <input type="text" name="buscar" id="buscar" autofocus/> 
+ <input type="submit" value="buscar"/>
+ 
+ </form>
+
+<h1>form</h1>
+<form  form >
+           
+           First Name: <input type="text" name="fname">
+          <input type="submit">
+        </form>
+
+
+
+<h1>form action</h1>
+       <form action="http://example.com">
+  <input type=submit value="wufoo" 
+     formaction="http://www.wufoo.com">
+</form>
+	
+
+	<h1>formenctype</h1>
+	<form enctype="multipart/form-data">
+  <input type=submit value=Submit ↵
+     formenctype="application/x-www-form-urlencoded">
+</form>
+
+<h1>formmethod</h1>
+<form method=post>
+  <input name=hidden-value value="5" type=hidden>
+  <input type=submit value=Submit formmethod=get>
+</form>
+
+
+<h1>formnovalidate</h1>
+<form>
+  <input type=number name=num min=1 max=10>
+  <input type=submit formnovalidate value=Save>
+  <input type=submit value=Submit>
+</form>
+
+
+<h1>formtarget</h1>
+<form target="_self">
+  <input type="submit" formtarget="_blank">
+</form>
+
+<h1></h1>
+<form action="demo_form.asp">
+First name: <input type="text" name="fname"><br>
+Last name: <input type="text" name="lname"><br>
+<input type="image"  src="imgs/dota2.jpg" alt="Submit" width="48" height="48">
+</form>
+ 
+ <h1>list</h1>
+ <input type="text" list="numbers" />
+<input type="range" min="0" max="100" list="numbers" />
+<input type="number" min="0" max="100" list="numbers" />
+<datalist id="numbers">
+  <option>10</option> 
+  <option label="30">30</option> 
+  <option label="midpoint">50</option> 
+  <option>70</option>
+  <option>90</option> 
+</datalist>
+
+
+<h1>min/max</h1>
+<input type="number" min="0" max="100"  >
+<input type="range" min="0" max="15"  >
+
+<h1>multiple</h1>
+<input type=file multiple>
+
+
+</body>
+</html>

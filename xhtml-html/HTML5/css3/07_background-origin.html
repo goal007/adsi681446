@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>background-origin css3</title>
+	<style>
+
+    fieldset{
+
+         border: 100px solid transparent; 
+    	height: 400px;
+    	width: 400px;
+        padding: 100px;
+        background: #fff url(../imgs/paisaje.jpg)no-repeat;
+    }
+ .bg1 { background-origin:padding-box; }
+ .bg2 { background-origin:border-box; }
+ .bg3 { background-origin:content-box; }
+    
+
+	</style>
+</head>
+<body>
+	<h1>background-origin css3</h1>
+	<!-- -------------------------------------- -->
+	<fieldset class="bg1">
+	<legend><h1>background-origin:padding-box</h1></legend>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid non illo a nisi vero, doloremque cumque animi, sequi similique necessitatibus qui incidunt, alias consequuntur pariatur quibusdam, quod excepturi ut! Omnis.
+	</fieldset>
+	<!-- -------------------------------------- -->
+	<fieldset class="bg2">
+	<legend><h1>background-origin:border-box</h1></legend>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis esse, excepturi aperiam maxime eum temporibus, quasi accusamus hic qui atque nam. Soluta minima, molestiae tempora amet dolorem rerum sint accusamus.
+	</fieldset>
+	<!-- -------------------------------------- -->
+	<fieldset class="bg3">
+	<legend><h1>background-origin:content-box</h1></legend>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quod quam consequatur hic temporibus, voluptates tenetur accusamus culpa esse magni omnis blanditiis unde vitae in. At ipsum impedit perspiciatis quia.
+	</fieldset>
+</body>
+</html>

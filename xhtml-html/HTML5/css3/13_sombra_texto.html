@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sombra en los textos -css3</title>
+	<style>
+     
+     body{
+
+     	font:16px sans-serif;
+     }
+
+      h1.txt1{
+     
+        color: #ccc;
+      	font-size: 3em;
+      	-webkit-text-shadow: 0px 0px 8px #000;
+      -moz-text-shadow: 0px 0px 8px #000;
+      -ms-text-shadow: 0px 0px 8px #000;
+       -o-text-shadow: 0px 0px 8px #000;
+       text-shadow: 0px 0px 8px #000;
+
+      }
+
+      h1.txt2{
+       color: #7b43d4;
+      	
+      	font-size: 4em;
+  -webkit-text-shadow:4px 4px 4px #000;
+     -moz-text-shadow:4px 4px 4px #000;
+        -ms-text-shadow:4px 4px 4px #000;
+            -o-text-shadow:4px 4px 4px #000;
+               text-shadow: 4px 4px 4px #000;
+
+      }
+
+
+      fieldset:last-child{
+
+
+      	background-color: #555; 
+   
+      	color: #ddd;
+      	
+  -webkit-text-shadow:1px 1px 2px #000;
+     -moz-text-shadow:1px 1px 2px #000;
+         -ms-text-shadow:1px 1px 2px #000;
+             -o-text-shadow:1px 1px 2px #000;
+                text-shadow:1px 1px 2px #000;
+      }
+     fieldset:last-child legend{
+
+
+      	background-color: #555; 
+      	color: #fff;
+      	padding:2px 10px;
+      }
+	</style>
+</head>
+<body>
+	<h1>sombra en los textos -css3</h1>
+
+	<fieldset>
+		<legend><h2>text-shadow:;</h2></legend>
+		<h1 class="txt1">lorem ipsum dolor </h1>
+	</fieldset>
+	<fieldset>
+		<legend><h2>text-shadow:;</h2></legend>
+		<h1 class="txt2">lorem ipsum dolor </h1>
+	</fieldset>
+	<fieldset>
+		<legend><h2>text-shadow:;</h2></legend>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor commodi voluptas, necessitatibus quis quaerat, quae, illum, perferendis et voluptatem voluptates illo. Doloribus adipisci debitis quaerat aut tempore fugiat nemo illo.</p>  
+	</fieldset>
+</body>
+</html>

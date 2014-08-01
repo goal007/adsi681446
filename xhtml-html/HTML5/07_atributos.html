@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Atributos(formulario) especificos HTML5</title>
+</head>
+<body>
+	<h1> Atributos(formulario) especificos HTML5 </h1>
+	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <fieldset>
+    	
+   <legend>Autocompletar</legend>
+ <form action="" method="post">
+ <label for="nombre">nombre:</label>
+    <input type="text" id="nombre" autocompletar="off">
+   <label for="telefono" >telefono:</label>
+   <input type="text" id="telefono" autocompletar="on">
+   <input type="submit" value="enviar datos">
+
+</form>
+    </fieldset>
+
+	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+   <legend>autofocus</legend>
+ <form action="" method="post">
+ <label for="correo">correo electronico:</label>
+    <input type="email" id="correo"  autofocus>
+   <input type="submit"  value="enviar datos"> 
+   
+</form>
+    </fieldset>
+
+	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+ <fieldset>
+    	
+   <legend>form</legend>
+ <form action="" method="get" id="frm" novalidate>
+ <label for="correo">correo electronico:</label>
+    <input type="email" id="correo" name="correo"   >
+   <input type="submit"  value="enviar datos"> 
+      
+</form>
+<label for="correo"> direccion:</label>
+   <input type="text"   id="direccion" name="direccion" form="frm"> 
+
+    </fieldset>
+
+    	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+   <legend>formaction</legend>
+ <form action="datos.php" method="post">
+ <label for="edad">edad:</label>
+    <input type="number" id="edad"  >
+   <input type="submit"  value="enviar datos"> 
+      <input type="submit"  value="enviar datos a otro archivo" formaction="procesar.php"> 
+</form>
+    </fieldset>
+
+
+    	<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+   <legend>formenctype</legend>
+ <form action="" method="post" >
+ <label for="nombre">nombre:</label>
+    <input type="text" id="nombre"   name="	nombre"> 
+    <label for="foto">foto:</label>
+    <input type="file" id="	foto" name="foto">
+     <input type="submit"  value="enviar solo datos"> 
+     <input type="submit"  value="enviar datos a otro archivo" formenctype="multipart/form-data"> 
+
+ 
+</form>
+    </fieldset>
+
+
+<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+    <legend>formNovalidate</legend>
+     <form action="" method="post" >
+     <label for="correo">correo electronico:</label>
+     <input type="email" id="correo"   name="correo" required> 
+     <label for="fecha">fecha de nacimiento:</label>
+     <input type="date"  id="fecha" name="fecha" required> 
+     <input type="submit"  value="enviar por get" formnovalidate> 
+      
+
+ 
+</form>
+    </fieldset>
+
+<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+    <legend>formtarget</legend>
+     <form action="" method="post" >
+     <label for="correo">nombre completo:</label>
+     <input type="text" id="nombre"   name="nombre" > 
+      
+     <input type="submit"  value="enviar datos" formtarget="blank"> 
+
+</form>
+    </fieldset>
+
+    <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+    <legend>alto y ancho</legend>
+     <form action="" method="post" >
+     <label for="correo">nombre completo:</label>
+     <input type="text" id="nombre"   name="nombre"  > 
+      
+     <input type="image"  src="imgs/button.png" width="50" height="50" > 
+      
+</form>
+    </fieldset>
+    <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+    <legend>lista</legend>
+     <form action="" method="post" >
+     <input list="departamentos">
+     <datalist id="departamentos">
+     <option value="caldas">caldas</option>
+     <option value="quindio">quindio</option>
+     <option value="risaralda">risaralda</option>
+
+    		
+ </datalist>
+      
+     <input type="submit"  value="Enviar Datos" > 
+      
+</form>
+ </fieldset>
+
+
+<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+    <legend>minimo y maximo</legend>
+     <form action="" method="post" >
+     <label for="edad">edad:</label>
+    <input type="number" id="edad" name="edad" min="18" max="80">
+    <input type="submit"  value="Enviar Datos">    
+</form>
+ </fieldset>
+ <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+    <legend>multiple</legend>
+     <form action="" method="post" >
+     <label for="canciones">canciones:</label>
+     <input type="file" id="canciones" name="canciones"  multiple>
+     <input type="submit"  value="Enviar Datos">    
+</form>
+ </fieldset>
+
+<!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+    <legend>placeholder</legend>
+     <form action="" method="post" >
+     <input type="text" id="nombre" placeholder="ingrese su nombre">
+     <br>
+     <input type="text"  id="  apellido" placeholder="ingrese su apellido">   
+     <br>
+     <input type="submit"   value="enviar datos">     
+</form>
+ </fieldset>
+ <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+    <legend>requerido</legend>
+     <form action="" method="post" >
+     <input type="text" id="nombre" placeholder="ingrese su nombre" required>
+     <br>
+     <input type="text"  id="  apellido" placeholder="ingrese su apellido" required >   
+     <br>
+     <input type="submit"   value="enviar datos">     
+</form>
+ </fieldset>
+
+ <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+   <fieldset>
+    	
+    <legend>step</legend>
+     <form action="" method="post" >
+     <label for="edad">edad</label>
+     <input type="range" id="edad" step="10" oninput="salida.value=this.value">
+     <output  id="salida"	for="edad"></output>
+     <input type="submit"   value="enviar datos" >   
+        
+</form>
+ </fieldset>
+
+</body>
+</html>
